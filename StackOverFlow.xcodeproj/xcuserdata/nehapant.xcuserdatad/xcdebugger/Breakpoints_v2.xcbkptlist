@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A4CE21D1-154B-4D3E-8370-F785BF2F6AAA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3FFD854-170D-4A4F-AEAD-A5AB829D7DAF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StackOverFlow/ViewModel/UsersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "getUserData(with:order:sort:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D3FFD854-170D-4A4F-AEAD-A5AB829D7DAF - b803d2eca5638600"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in StackOverFlow.UsersViewModel.getUserData() -&gt; ()"
+                  moduleName = "StackOverFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nehapant/Documents/Upload/Git-Upload/Git/StackOverFlow/StackOverFlow/ViewModel/UsersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "D3FFD854-170D-4A4F-AEAD-A5AB829D7DAF - 4bbc4426ab6978dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in StackOverFlow.UsersViewModel.getUserData(with: Swift.Int, order: Swift.String, sort: Swift.String) -&gt; ()"
+                  moduleName = "StackOverFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nehapant/Documents/Upload/Git-Upload/Git/StackOverFlow/StackOverFlow/ViewModel/UsersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "218">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9294EC30-2524-4773-AFD1-A5AAB1D55E2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StackOverFlow/ViewModel/UsersViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getUserData(with:order:sort:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9294EC30-2524-4773-AFD1-A5AAB1D55E2D - d2b1ff9ef00ee1ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in StackOverFlow.UsersViewModel.getUserData() -&gt; ()"
+                  moduleName = "StackOverFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nehapant/Documents/Upload/Git-Upload/Git/StackOverFlow/StackOverFlow/ViewModel/UsersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "259">
+               </Location>
+               <Location
+                  uuid = "9294EC30-2524-4773-AFD1-A5AAB1D55E2D - 2eb14c667695da78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in StackOverFlow.UsersViewModel.getUserData(with: Swift.Int, order: Swift.String, sort: Swift.String) -&gt; ()"
+                  moduleName = "StackOverFlow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nehapant/Documents/Upload/Git-Upload/Git/StackOverFlow/StackOverFlow/ViewModel/UsersViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "500">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1FD16F10-1E27-4AA6-91EB-E3EC35D38D0D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StackOverFlow/View/UsersList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3474E8A-47A3-44AD-81D5-28EF3CD07BD1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StackOverFlow/Network/APIHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getData(from:session:pageSize:order:sort:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
