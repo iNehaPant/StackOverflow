@@ -18,7 +18,7 @@ struct StackOverFlowApp: App {
                         session: URLSession.shared,
                         apiHandler: APIHandler(),
                         parserHandler: ParserHandler()
-                    )
+                    ), userDefault: UserDefaults()
                 )
             )
         }
