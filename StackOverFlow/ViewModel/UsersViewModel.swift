@@ -49,6 +49,7 @@ class UsersViewModel: ObservableObject {
     }
     
     //changing the user follow status
+    //index: is the index number in the array where user clicked
     func changeUserFollowStatus(from status: Bool, index: Int) {
         DispatchQueue.main.async { [weak self] in
             guard let weakSelf = self else {return}

@@ -76,13 +76,22 @@ struct UsersList: View {
                 }
             }
         }
+        .refreshable {
+            getUserData()
+        }
         .alert(usersViewModel.errorMessage,
                isPresented: $usersViewModel.isError,
                actions: {
             Button("Ok", role: .cancel){}
         })
         .onAppear {
-            usersViewModel.getUserData(
+            getUserData()
+        }
+    }
+    
+    func getUserData() {
+        Task {
+            await usersViewModel.getUserData(
                 with: 20,
                 order: "desc",
                 sort: sortUsers.reputation.rawValue
@@ -92,5 +101,5 @@ struct UsersList: View {
 }
 
 #Preview {
-    UsersList(usersViewModel: UsersViewModel(networkManager: NetworkManager(baseUrl: Configuration.baseUrl, session: URLSession.shared, apiHandler: APIHandler(), parserHandler: ParserHandler()), userDefault: UserDefaults()))
+    UsersList(usersViewModel: UsersViewModel(networkManager: MockNetworkManager(), userDefault: UserDefaults()))
 }
