@@ -7,13 +7,19 @@
 
 import Foundation
 
-struct User: Codable, Identifiable {
+struct User: Codable, Identifiable, Equatable {
     let id: Int
     let displayName: String
     let profileImage: String
     let reputation: Int
     var isFollow: Bool?
     
+    init(id: Int, displayName: String, profileImage: String, reputation: Int) {
+        self.id = id
+        self.displayName = displayName
+        self.profileImage = profileImage
+        self.reputation = reputation
+    }
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -31,6 +37,13 @@ struct User: Codable, Identifiable {
         try container.encode(profileImage, forKey: .profileImage)
         try container.encode(reputation, forKey: .reputation)
         try container.encode(isFollow, forKey: .isFollow)
+    }
+    
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.id == rhs.id &&
+               lhs.displayName == rhs.displayName &&
+               lhs.profileImage == rhs.profileImage &&
+               lhs.reputation == rhs.reputation
     }
     
     enum CodingKeys: String, CodingKey {

@@ -18,13 +18,13 @@ protocol NetworkService {
 struct NetworkManager: NetworkService {
     fileprivate let baseUrl: String
     fileprivate let session: URLSession
-    fileprivate let apiHandler: APIHandler
-    fileprivate let parserHandler: ParserHandler
+    fileprivate let apiHandler: APIHandling
+    fileprivate let parserHandler: Parsing
     
     init(baseUrl: String,
          session: URLSession,
-         apiHandler: APIHandler,
-         parserHandler: ParserHandler) {
+         apiHandler: APIHandling,
+         parserHandler: Parsing) {
         self.baseUrl = baseUrl
         self.session = session
         self.apiHandler = apiHandler
